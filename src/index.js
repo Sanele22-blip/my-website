@@ -7,7 +7,7 @@ else if(hour >=12 && hour <18){
     greetings = "Good afternoon";
 }
 else {
-    greetings = "Goog evening";
+    greetings = "Good evening";
 }
 
-document.write("<h1>" +  greetings + "</h1>");
+document.write( greetings );
