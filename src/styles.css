@@ -13,8 +13,37 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.brief-summary {
+    margin-bottom: 20px;
+}
 
+.about-me {
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    margin-bottom: 20px;
+}
+
+.my-portfolio {
+    margin-bottom: 20px;
+}
 
 a {
     color: blueviolet;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+footer a {
+    margin:  0 10px;
+}
+
+footer a :hover {
+    text-decoration: underline;
 }
